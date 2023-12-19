@@ -31,6 +31,24 @@
 
 @media only screen and (max-width:450px){
     .c-btn{
-        width: 30px;
+        width: 350px;
+    }
+}
+@media only screen and (max-width:385px){
+    .c-btn{
+        width: 300px;
+    }
+}
+@media only screen and (max-width:350px){
+    .c-btn{
+        width: 260px;
+        padding:10px 10px;
+    }
+    .c-btn i{
+        width:8%;
+        font-size:18px;
+    }
+    .c-btn div{
+        width:90%;
     }
 }
