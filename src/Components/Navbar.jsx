@@ -17,7 +17,7 @@ export default function Navbar() {
           <div className="nav-right">
             <ul>
               <li>
-                <NavLink to={"/"}>Home</NavLink>
+                <NavLink to={["/","/first-react-project"]}>Home</NavLink>
               </li>
               <li>
                 <NavLink to={"/contact"}>Contact</NavLink>
